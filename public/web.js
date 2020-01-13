@@ -31,6 +31,8 @@ $("h1:last-of-type").on("mouseout", function(){
     $(this).html("Digital Media");
 });
 
+$(".carousel").carousel();
+
 // var current = $(window).scrollTop();
 // var total = $(window).height() - current;
 // var ele = $("#about");

@@ -10,6 +10,13 @@ nav{
     color: #ee5e54;
 }
 
+.fa-instagram{
+    color: black;
+}
+.fa-linkedin-in{
+    color: black;
+}
+
 .abs-center-x {
     position: absolute;
     left: 50%;
@@ -53,6 +60,16 @@ nav{
 #content a:hover{
     color: #ee5e54;
 }
+.row1{
+    height:100%;
+}
+#content2{
+    text-align: center;
+}
+
+#content2 a:first-of-type{
+    margin-left: 0;
+}
 
 #line{
     width: 350px;
@@ -72,8 +89,32 @@ nav{
 
 #display{
     height: 500px;
-    border: 1px solid rgba(171, 172, 172, 0.5);
 }
+
+.carousel{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white;
+}
+
+.carousel-indicators li{
+    background-color: #abacac;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators .active{
+    background-color: #ee5e54;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    color: black;
+    text-align: left;
+    background-color: white;
+}
+
 h1{
     text-align: left;
     height: 33.33%;
@@ -105,16 +146,15 @@ h1:hover{
     margin-bottom: -0.4em; 
 } 
 
-h6{
-    height: 80px;
+#viewproj{
+    text-decoration: none;
+    color: black;
     text-align: center;
     background-color: white;
     font-family: "Cairo", sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 15px;
-    border: 1px solid rgba(171, 172, 172, 0.5);
-    padding-top: 35px;
 }
 
 #title{
@@ -126,15 +166,41 @@ h6{
 }
 
 #desc{
-    height: 140px;
     width: 665px;
-    border: 1px solid rgba(171, 172, 172, 0.5);
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
     font-weight: 400;
     font-size: 0.9rem;
+    height: 120px;
 }
+
+.redblock{
+    max-width: 85px; 
+    height: 80px; 
+    background-color: #ee5e54;
+}
+.projdiv{
+    max-width: 475px; 
+    background-color: white; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    text-align: center; 
+    padding-top: 25px;
+}
+
+.fa-eye{
+    color:#ee5e54;
+}
+
+.aboutrow{
+    margin-top: 150px;
+}
+
+.aboutcol{
+    height:115px; 
+    border: 1px solid rgba(171, 172, 172, 0.5);
+}
+
 #about{
     text-align: center;
     font-family: "Cairo", sans-serif;
@@ -150,8 +216,49 @@ h6{
     position: sticky;
 }
 
+.logocol{
+    height:400px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color:white
+}
 
+.logocol img{
+    width:100%; 
+    height:400px;
+}
 
+.textcol{
+    height:230px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color:white
+}
+
+.textcol p{
+    color:rgb(171, 172, 172); 
+    line-height: 1.7;
+}
+
+.brandcol{
+    height:230px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color:white
+}
+
+.brandcol p{
+    font-size: 1.3rem; 
+    font-weight: 300;
+}
+
+.emojicol{
+    height:230px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color:white
+}
+
+.emojicol p{
+    font-size: 1.3rem; 
+    font-weight: 300;
+}
 /* .wrapper {
     overflow: hidden;
   }
@@ -177,6 +284,15 @@ p{
     font-size: 0.9rem;
 }
 
+.blogrow{
+    max-height: 700px;
+}
+
+.blogdiv{
+    height:115px; 
+    border: 1px solid rgba(171, 172, 172, 0.5);
+}
+
 #blog{
     color: rgba(171, 172, 172, 0.4);
     text-align: center;
@@ -185,6 +301,26 @@ p{
     font-weight: 700;
     letter-spacing: 4px;
     /* display: inline-block; */
+}
+
+.article img{
+    width: 100%; 
+    margin-top: 162px; 
+    border: 1px solid rgba(171, 172, 172, 0.5);
+}
+
+.article p{
+    background-color: white; 
+    color:rgb(171, 172, 172); 
+    font-size: 0.7rem; 
+    font-weight: 500; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    letter-spacing: 1px;
+    height: 106px;
+}
+
+.article span{
+    font-size: 1rem;
 }
 /* .element {
 	text-shadow:
@@ -209,6 +345,93 @@ p{
     padding-top: 160px;
 }
 
+.overlay2 a{
+    text-decoration: none; 
+    outline: none; 
+    background-color: #ee5e54; 
+    color: white; 
+    border: none; 
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 600; 
+    letter-spacing: 1px;
+}
+
+.eye2{
+    color: white;
+}
+
+.datep{
+    width: 95px; 
+    height: 350px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white; 
+    font-family: 'Montserrat', sans-serif; 
+    text-align: right; 
+    padding-top: 300px;
+}
+
+.datep span{
+    color: rgb(171, 172, 172); 
+    font-size: 0.7rem; 
+    letter-spacing: 1px; 
+    font-weight: 500;
+}
+
+.empty{
+    width: 95px; 
+    height: 350px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white;
+}
+
+.datep2{
+    width: 95px; 
+    height: 200px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white; 
+    font-family: 'Montserrat', sans-serif; 
+    text-align: right; 
+    padding-top: 150px;
+}
+
+.datep2 span{
+    color: rgb(171, 172, 172); 
+    font-size: 0.7rem; 
+    letter-spacing: 1px; 
+    font-weight: 500;
+}
+
+.empty2{
+    width: 95px; 
+    height: 500px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white;
+}
+
+.article2col{
+    height: 600px;
+}
+
+.article2 img{
+    margin-top: 55px; 
+    width: 100%; 
+    border: 1px solid rgba(171, 172, 172, 0.5);
+}
+
+.article2 p{
+    background-color: white; 
+    color:rgb(171, 172, 172); 
+    font-size: 0.7rem; 
+    font-weight: 500; 
+    border: 1px solid rgba(171, 172, 172, 0.5);
+    letter-spacing: 1px;
+    height: 106px;
+}
+
+.article2 span{
+    font-size: 1rem;
+}
+
 .overlay3{
     height: 422.8px;
     width: 100%;
@@ -223,12 +446,74 @@ p{
     padding-top: 160px;
 }
 
+.overlay3 a{
+    text-decoration: none; 
+    outline: none; 
+    background-color: #ee5e54; 
+    color: white; 
+    border: none; 
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 600; 
+    letter-spacing: 1px;
+}
+
 .article:hover .overlay2{
     display: block;
 }
 
 .article2:hover .overlay3{
     display: block;
+}
+
+.morerow{
+    height: 80px;
+}
+
+.colmore{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white;
+}
+
+.loadmore{
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 700; 
+    font-size: 1rem; 
+    letter-spacing: 1.5px; 
+    text-align: center;
+}
+
+.loadmore a{
+    color: black; 
+    text-decoration: none;
+}
+
+.infodiv{
+    height: 500px; 
+    width: 100%; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white; 
+    margin-top: 100px;
+}
+
+.infocol{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    height: 360px; 
+    margin-top: 70px; 
+    background-color: #f2f2f3;
+}
+
+.info{
+    font-size: 5rem;
+    color: rgba(171, 172, 172, 0.4);
+    text-align: center;
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.formcol{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    margin-top: 70px;
 }
 
 input {
@@ -245,6 +530,7 @@ input {
     width: 250px;
     margin-left: 60px;
     outline: none;
+    border: 1px solid rgba(171, 172, 172, 0.5);
     }
 label{
     font-family: "Cairo", sans-serif;
@@ -269,6 +555,25 @@ textarea{
     color: white;
     height: 50px;
     font-weight: 600;
+}
+
+.navbar2{
+    background-color: white; 
+    margin-top: 90px; 
+    border: 1px solid rgba(171, 172, 172, 0.5);
+}
+
+.navbar2 .navbar-nav{
+    font-family: 'Cairo', sans-serif; 
+    letter-spacing: 1.5px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+#fb2{
+    margin-left:800px;
 }
 
 /* fieldset{
@@ -296,4 +601,127 @@ textarea{
 
 ::placeholder { /* Most modern browsers support this now. */
    color:    black;
+}
+
+/* Projects Page */
+
+.projrow{
+    margin-top: 50px;
+}
+
+.projcol{
+    height:600px; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color:white
+}
+
+#back{
+    text-decoration: none; 
+    outline: none; 
+    background-color: #ee5e54; 
+    color: white; 
+    border: none; 
+}
+
+.backcol{
+    background-color: #ee5e54;
+    text-align: center;
+}
+
+/* Contact Us Page */
+
+.taskrow{
+    background-color: white;
+    border: 1px solid rgba(171, 172, 172, 0.5);
+    height: 150px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.taskrow h2{
+margin-top: 50px;
+}
+
+.taskrow2{
+    background-color: white;
+    border: 1px solid rgba(171, 172, 172, 0.5);
+    padding-bottom: 50px;
+}
+
+#task{
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    /* background-color: #ee5e54; */
+    /* color: white; */
+    padding: 5px 5px;
+    margin-bottom: 15px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #ee5e54;
+}
+
+#tasksmall{
+    height: 60px;
+    padding-top: 15px;
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #ee5e54;
+}
+
+
+#contact{
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.fa-envelope{
+    color: #ee5e54;
+}
+
+.fa-phone{
+    color: #ee5e54;
+}
+
+iframe{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    margin-left: 85px;
+}
+.contactrow{
+    background-color: white;
+}
+.contactcol{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    height: 360px;
+}
+
+#contact2{
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 85px;
+    margin-top: 110px;
+    margin-bottom: 5px;
+}
+
+.contactdiv{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white;
 }

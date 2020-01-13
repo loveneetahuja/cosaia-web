@@ -15,5 +15,17 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function(req, res){
-    res.render("web");
+    res.render("home");
+})
+
+app.get("/projects", function(req, res){
+    res.render("proj");
+})
+
+app.get("/blogs", function(req, res){
+    res.render("blogs");
+})
+
+app.get("/contact_us", function(req, res){
+    res.render("contact");
 })
