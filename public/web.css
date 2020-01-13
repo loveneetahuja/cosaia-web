@@ -2,6 +2,7 @@ body{
     background-color: #f2f2f3;
 }
 
+
 nav{
     background-color: #f2f2f3;;
 }
@@ -628,20 +629,24 @@ textarea{
     text-align: center;
 }
 
+.portfolio{
+    margin-left: 100px;
+}
+
 /* Contact Us Page */
 
-.taskrow{
+/* .taskrow{
     background-color: white;
     border: 1px solid rgba(171, 172, 172, 0.5);
     height: 150px;
-}
+} */
 
 h2{
     font-family: 'Montserrat', sans-serif; 
     font-size: 3rem;
     letter-spacing: 1.5px;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 35px;
 }
 
 .taskrow h2{
@@ -659,8 +664,8 @@ margin-top: 50px;
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 1px;
-    /* background-color: #ee5e54; */
-    /* color: white; */
+    background-color: #ee5e54; 
+    color: white;
     padding: 5px 5px;
     margin-bottom: 15px;
     width: 150px;
@@ -679,7 +684,7 @@ margin-top: 50px;
     width: 150px;
     text-align: center;
     border: 1px solid #ee5e54;
-}
+} 
 
 
 #contact{
@@ -704,6 +709,7 @@ iframe{
 }
 .contactrow{
     background-color: white;
+    margin-top: 80px;
 }
 .contactcol{
     border: 1px solid rgba(171, 172, 172, 0.5); 
@@ -717,11 +723,31 @@ iframe{
     letter-spacing: 1px;
     text-align: left;
     margin-left: 85px;
-    margin-top: 110px;
+    margin-top: 25px;
     margin-bottom: 5px;
 }
 
 .contactdiv{
     border: 1px solid rgba(171, 172, 172, 0.5); 
     background-color: white;
+}
+
+.infodivcontact{
+    margin-top: 80px;
+    height: 880px; 
+    width: 100%; 
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color: white; 
+}
+
+.infocolcontact{
+margin-top: 0;
+border: 1px solid rgba(171, 172, 172, 0.5); 
+height: 360px; 
+background-color: #f2f2f3;
+}
+
+.formcolcontact{
+margin-top: 0;
+border: 1px solid rgba(171, 172, 172, 0.5); 
 }
