@@ -7,6 +7,7 @@ var app = express();
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;
+  console.log('Server is running on port 3000');
 }
 app.listen(port);
 
@@ -28,4 +29,16 @@ app.get("/blogs", function(req, res){
 
 app.get("/contact_us", function(req, res){
     res.render("contact");
+})
+
+app.get("/development", function(req, res){
+    res.render("development")
+})
+
+app.get("/design", function(req, res){
+    res.render("design");
+})
+
+app.get("/digitalmarketing", function(req,res){
+    res.render("digital_marketing");
 })

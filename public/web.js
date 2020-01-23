@@ -76,3 +76,5 @@ $(window).scroll(function(){
     $("#blog").css('margin-left',$(this).scrollTop()-1400 + 'px');
     } 
 });
+
+
