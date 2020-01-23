@@ -1,5 +1,10 @@
 body{
     background-color: #f2f2f3;
+    background-image: url(logooutline2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 50% 60%;
 }
 
 
@@ -33,6 +38,11 @@ nav{
     top: 0;
     left: 0;
     background-color: rgb(45, 68, 92);
+    background-image: url(logofilled.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 #closeButton{
@@ -43,7 +53,8 @@ nav{
     outline: none;
     display: inline;
     margin-top: 20px;
-    margin-left: 1200px;
+    float: right;
+    /* margin-left: 1200px; */
 }
 
 #content a{
@@ -63,6 +74,7 @@ nav{
 }
 .row1{
     height:100%;
+    padding-top: 200px;
 }
 #content2{
     text-align: center;
@@ -177,16 +189,15 @@ h1:hover{
 }
 
 .redblock{
-    max-width: 85px; 
     height: 80px; 
-    background-color: #ee5e54;
+    background: linear-gradient(to right, #ee5e54 50%, transparent 50%);
 }
 .projdiv{
-    max-width: 475px; 
     background-color: white; 
     border: 1px solid rgba(171, 172, 172, 0.5); 
     text-align: center; 
     padding-top: 25px;
+    height: 80px;
 }
 
 .fa-eye{
@@ -573,10 +584,21 @@ textarea{
     color: black;
 }
 
-#fb2{
-    margin-left:800px;
+.fa-ellipsis-v{
+    color: black;
+}
+.fa-comment{
+    color: black;  
 }
 
+#social{
+    max-width: 100px;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+/* abs-center-x */
 /* fieldset{
     width: 600px;
     height: 250px;
@@ -630,7 +652,10 @@ textarea{
 }
 
 .portfolio{
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Contact Us Page */
@@ -703,9 +728,10 @@ margin-top: 50px;
     color: #ee5e54;
 }
 
-iframe{
+.contactiframe{
     border: 1px solid rgba(171, 172, 172, 0.5); 
-    margin-left: 85px;
+    display: block;
+    margin: 0 auto;
 }
 .contactrow{
     background-color: white;
@@ -722,7 +748,7 @@ iframe{
     font-size: 1rem;
     letter-spacing: 1px;
     text-align: left;
-    margin-left: 85px;
+    text-align: center;
     margin-top: 25px;
     margin-bottom: 5px;
 }
@@ -733,11 +759,12 @@ iframe{
 }
 
 .infodivcontact{
-    margin-top: 80px;
-    height: 880px; 
+    margin-top: 60px;
+    margin-bottom: 60px;
     width: 100%; 
     border: 1px solid rgba(171, 172, 172, 0.5); 
     background-color: white; 
+    padding-bottom: 70px;
 }
 
 .infocolcontact{
@@ -751,3 +778,111 @@ background-color: #f2f2f3;
 margin-top: 0;
 border: 1px solid rgba(171, 172, 172, 0.5); 
 }
+
+/* Blogs Page */
+
+.cardcont{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    height: 740px;
+    background-color: white; 
+    width: 100%;
+    padding-top: 70px;
+}
+
+#carddiv{
+    width: 800px;
+    height: 500px;
+}
+
+/* #carddiv .row{
+    height: 640px;
+}
+
+#carddiv .col-4{
+    text-align: center;
+} */
+
+.card-text{
+    font-family: "Cairo", sans-serif;
+    font-size: 1rem; 
+    font-weight: 500;  
+    letter-spacing: 1px;
+}
+
+.list-group-item{
+    font-family: "Cairo", sans-serif;
+    font-size: 0.8rem; 
+    font-weight: 500;  
+    letter-spacing: 1px;
+}
+
+.card .btn{
+    background-color: #ee5e54;
+    color: white;
+    font-family: "Cairo", sans-serif;
+    font-size: 1rem; 
+    font-weight: 500;  
+    letter-spacing: 1px;
+}
+
+.card {
+    text-align: center;
+    box-shadow: -1rem 0 3rem rgb(184, 180, 180);
+    transition: 0.4s ease-out;
+    left: 0px;
+    float: left;
+    /* height: 500px; */
+    padding: 20px 20px;
+  }
+
+  .list-group-item{
+      border: none;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+
+  /* Individual Blog Page */
+
+.blogimg img{
+    width: 100%;
+    height: 400px;
+}
+
+.blogrow2 .blogcol{
+    background-color: white;
+  }
+
+#blogdate{
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 0.7rem;
+    border-bottom: 1px solid rgba(171, 172, 172, 0.3); 
+    padding-bottom: 20px;
+    width: 30%;
+}
+
+
+
+  /* .blogcont{
+    border: 1px solid rgba(171, 172, 172, 0.5); 
+    height: 840px;
+    background-color: white; 
+    width: 100%;
+    padding-top: 70px;
+  } */
+
+ 

@@ -2,6 +2,7 @@ var http = require("http");
 var express = require("express");
 var request = require("request");
 var bodyParser = require("body-parser");
+var mongoose = require("mongoose");
 var app = express();
 
 let port = process.env.PORT;
@@ -10,10 +11,12 @@ if (port == null || port == "") {
 }
 app.listen(port);
 
+//App Config
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 
+//Restful Routes
 app.get("/", function(req, res){
     res.render("home");
 })
@@ -28,4 +31,17 @@ app.get("/blogs", function(req, res){
 
 app.get("/contact_us", function(req, res){
     res.render("contact");
+})
+
+
+app.get("/firstblog", function(req, res){
+    res.render("firstblog");
+})
+
+app.get("/secondblog", function(req, res){
+    res.render("secondblog");
+})
+
+app.get("/thirdblog", function(req, res){
+    res.render("thirdblog");
 })
