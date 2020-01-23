@@ -1,11 +1,15 @@
 
 $(".fa-bars").on("click", function(){
     $("#menu").fadeIn(300);
+    $("body").css("overflow", "hidden");
 });
 
 $("#closeButton").on("click", function(){
     $("#menu").css("display", "none");
+    $("body").css("overflow", "auto");
 });
+
+
 
 $("h1:first-of-type").on("mouseenter", function(){
     $(this).html("Design<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span>");
@@ -24,11 +28,11 @@ $("#middle").on("mouseout", function(){
 });
 
 $("h1:last-of-type").on("mouseenter", function(){
-    $(this).html("Digital Media<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span>");
+    $(this).html("Digital Marketing<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span>");
 });
 
 $("h1:last-of-type").on("mouseout", function(){
-    $(this).html("Digital Media");
+    $(this).html("Digital Marketing");
 });
 
 $(".carousel").carousel();
@@ -78,3 +82,9 @@ $(window).scroll(function(){
 });
 
 
+$('#links').on('show.bs.collapse', function () {
+    $('#social').collapse("hide");
+  })
+  $('#social').on('show.bs.collapse', function () {
+    $('#links').collapse("hide");
+  })
