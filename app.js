@@ -45,6 +45,8 @@ app.get("/design", function(req, res){
 app.get("/digitalmarketing", function(req,res){
     res.render("digital_marketing");
 
+})
+
 app.get("/firstblog", function(req, res){
     res.render("firstblog");
 })
@@ -56,3 +58,6 @@ app.get("/secondblog", function(req, res){
 app.get("/thirdblog", function(req, res){
     res.render("thirdblog");
 })
+
+
+
