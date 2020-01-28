@@ -102,6 +102,35 @@
   box-sizing: border-box;
   padding: 30px;
   box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+  contain: strict;
+}
+
+@media screen and (max-width: 850px) {
+
+  .quotes{
+    width: 100vw;
+  }
+
+  .quotes .box{
+    
+    margin:10vw;
+    width: 80vw;
+    height: 40vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .quotes{
+    width: 100vw;
+  }
+
+  .quotes .box{
+    
+   
+    width: 30vw;
+    height: 60vw;
+  }
 }
 
 .quotes .box::before {
@@ -132,7 +161,7 @@
 .quotes .box p {
   margin: 0;
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .quotes .box img {
@@ -419,4 +448,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .dev-icons{
   font-size: 50px;
   margin: 10px;
+}
+
+.home-links:hover{
+ text-decoration: none;
 }
