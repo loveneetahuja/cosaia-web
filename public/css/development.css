@@ -282,7 +282,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     flex-direction: column;
   }
 }
-.card {
+
+
+.digital-card {
   width: 100%;
   max-width: 300px;
   min-width: 200px;
@@ -337,7 +339,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   font-size: 48px;
 }
 
-.card .title {
+.digital-card .title {
   width: 100%;
   margin: 0;
   text-align: center;
@@ -348,7 +350,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   letter-spacing: 4px;
 }
 
-.card .text {
+.digital-card .text {
   width: 80%;
   margin: 0 auto;
   font-size: 16px;
@@ -362,27 +364,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   transition: all 0.3s ease;
 }
 
-.card:hover {
+.digital-card:hover {
   height: 270px;
 }
 
-.card:hover .info {
+.digital-card:hover .info {
   height: 90%;
 }
 
-.card:hover .text {
+.digital-card:hover .text {
   transition: all 0.3s ease;
   opacity: 1;
   max-height: 40px;
 }
 
-.card:hover .icon {
+.digital-card:hover .icon {
   background-position: -120px;
   transition: all 0.3s ease;
   background: linear-gradient(90deg, #f2f2f3 100%, #f2f2f3 100%, rgba(0, 0, 0, 0.28) 100%) !important;
 }
 
-.card:hover .icon i {
+.digital-card:hover .icon i {
   background: linear-gradient(90deg, #FF7E7E, #FF4848);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -412,4 +414,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   margin-left: 20px;
   margin-bottom: 20px;
   border-radius: 0%;
+}
+
+.dev-icons{
+  font-size: 50px;
+  margin: 10px;
 }
