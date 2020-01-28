@@ -420,3 +420,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   font-size: 50px;
   margin: 10px;
 }
+
+.home-links:hover{
+ text-decoration: none;
+}
