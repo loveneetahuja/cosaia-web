@@ -1,0 +1,105 @@
+/* Home Page */
+
+@media screen and (max-width: 992px) {
+    .container{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        max-width: 95%;
+    }
+    
+    h1 {
+    text-align: center;
+    padding-left: 0;
+    border-right: 1px solid rgba(171, 172, 172, 0.5); 
+    padding-top: 30px;
+    font-size: 4rem;
+  }
+
+  .sub{
+      font-size: 1.5rem;
+  }
+
+  .homecol1{
+      height: 600px;
+  }
+
+  h1:first-of-type{
+      border-top: none;
+      border-bottom: none;
+  }
+
+  #services{
+      font-size: 1.5rem;
+  }
+
+  .carousel-inner{
+      height: 950px;
+  }
+
+  #display{
+    height: 950px;
+    }
+
+    #title{
+        font-size: 3rem;
+    }
+
+    #desc{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    #viewproj{
+        font-size: 2rem;
+    }
+
+    .projdiv{
+        height: 120px;
+    }
+
+    .redblock{
+        background-color: #ee5e54;
+        height: 120px;
+    }
+
+    .projdiv{
+        border-right: 1px solid rgba(171, 172, 172, 0.5); 
+    }
+
+    #about{
+        font-size: 5rem;
+    }
+
+    .textcol{
+        height: 400px;
+    }
+
+    .textcol p{
+        font-size: 1.8rem;
+    }
+
+    .brandcol{
+        height: 500px;
+    }
+
+    .brandcol p{
+        font-size: 2rem;
+    }
+
+    .emojicol{
+        height: 500px;
+    }
+
+    .emojicol p{
+        font-size: 2rem;
+    }
+
+    #blog{
+        font-size: 5rem;
+    }
+
+    .article p{
+        font-size: 1.7rem;
+    }
+
+}

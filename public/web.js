@@ -11,27 +11,21 @@ $("#closeButton").on("click", function(){
 
 
 
-$("h1:first-of-type").on("mouseenter", function(){
-    $(this).html("Design<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span>");
-});
-
-$("h1:first-of-type").on("mouseout", function(){
+$("h1:first-of-type").hover(function(){
+    $(this).html("Design<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span><span class='br'></span><a id='services' href='/design'>Learn More</a>");
+}, function(){
     $(this).html("Design");
 });
 
-$("#middle").on("mouseenter", function(){
-    $(this).html("Development<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span>");
-});
-
-$("#middle").on("mouseout", function(){
+$("#middle").hover(function(){
+    $(this).html("Development<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span><span class='br'></span><a id='services' href='/development'>Learn More</a>");
+}, function(){
     $(this).html("Development");
 });
 
-$("h1:last-of-type").on("mouseenter", function(){
-    $(this).html("Digital Marketing<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span>");
-});
-
-$("h1:last-of-type").on("mouseout", function(){
+$("h1:last-of-type").hover(function(){
+    $(this).html("Digital Marketing<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span><span class='br'></span><a id='services' href='/digitalmarketing'>Learn More</a>");
+}, function(){
     $(this).html("Digital Marketing");
 });
 
