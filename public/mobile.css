@@ -1,6 +1,32 @@
-/* Home Page */
+
 
 @media screen and (max-width: 992px) {
+    
+    /* Home Page */
+
+    .fa-facebook-f{
+        font-size: 1.7rem;
+    }
+    
+    .fa-behance-square{
+        font-size: 1.7rem;
+    }
+    .fa-linkedin-in{
+        font-size: 1.7rem;
+    }
+
+    .fa-bars{
+        font-size: 1.7rem;
+    }
+
+    .fa-ellipsis-v{
+        font-size: 1.7rem;
+    }
+
+    .fa-comment{
+        font-size: 1.7rem;
+    }
+    
     .container{
         margin-left: 2.5%;
         margin-right: 2.5%;
@@ -98,8 +124,108 @@
         font-size: 5rem;
     }
 
+    .blogdiv{
+        border-right: 1px solid rgba(171, 172, 172, 0.5);
+        border-top: 1px solid rgba(171, 172, 172, 0.5);
+        margin-top: 150px;
+    }
+
     .article p{
+        font-size: 1.7rem;
+        height: 250px;
+    }
+
+    .article img{
+        margin-top:0;
+    }
+
+    .daterow .col-4{
+        background-color: white;
+        border: 1px solid rgba(171, 172, 172, 0.5);
+        height: 70px;
+    }
+
+    .daterow .col-8{
+        height: 70px;
+    }
+
+    .daterow p{
+        font-family: 'Montserrat', sans-serif; 
+        text-align: center; 
+        font-size: 1.3rem; 
+    }
+
+    .daterow span{
+        color: rgb(171, 172, 172); 
+        letter-spacing: 1px; 
+        font-weight: 500;
+    }
+
+    .overlay2{
+        height: 870px;
+        top: 50%;
+        padding-top: 440px;
+    }
+
+    .overlay2 a{
+        font-size: 1.5rem;
+    }
+
+    .article2 p{
+        font-size: 1.7rem;
+        height: 250px;
+    }
+
+    .article2 img{
+        margin-top:0;
+    }
+
+    .overlay3{
+        height: 870px;
+        top: 50%;
+        padding-top: 440px;
+    }
+
+    .overlay3 a{
+        font-size: 1.5rem;
+    }
+
+    .loadmore{
         font-size: 1.7rem;
     }
 
+    .infocol{
+        height: 130px;
+        border-right: 1px solid rgba(171, 172, 172, 0.5);
+        margin-top: 0;
+    }
+
+    .infodiv{
+        height: auto;
+    }
+
+    .info{
+        text-align: center;
+    }
+
+    .formcol{
+        margin-top: 0;
+    }
+
+    input{
+        font-size: 2rem;
+        width: 350px;
+    }
+
+    label{
+        font-size: 2rem;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 2rem;
+    }
+
+    /* Contact Us Page */
+
+    
 }

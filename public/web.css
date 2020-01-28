@@ -321,6 +321,7 @@ p{
     height:115px; 
     border: 1px solid rgba(171, 172, 172, 0.5);
     border-right: none;
+    border-top: none;
 }
 
 #blog{
@@ -530,6 +531,7 @@ p{
     height: 360px; 
     margin-top: 70px; 
     background-color: #f2f2f3;
+    border-right: none;
 }
 
 .info{
