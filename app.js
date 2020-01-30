@@ -60,4 +60,14 @@ app.get("/thirdblog", function(req, res){
 })
 
 
+app.get("/thankyou", function(req, res){
+    res.render("thankyou");
+})
+
+
+app.get("/jobs", function(req, res){
+    res.render("jobs");
+})
+
+
 

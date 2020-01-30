@@ -453,3 +453,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .home-links:hover{
  text-decoration: none;
 }
+
+
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+  .mobile-head{
+    font-size: 2rem !important;
+  }
+  .mobile-font{
+    font-size: 1.7rem !important;
+  }
+  .service-sub-heading{
+    font-size: 1.8rem;
+  }
+}

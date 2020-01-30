@@ -47,3 +47,8 @@ chcard.onmouseout = function() {
     chimage.src='images/ch1.png';
     
 }
+
+$('#toggle').click(function() {
+  $('.circle-loader').toggleClass('load-complete');
+  $('.checkmark').toggle();
+});
