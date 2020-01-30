@@ -12,19 +12,19 @@ $("#closeButton").on("click", function(){
 
 
 $("h1:first-of-type").hover(function(){
-    $(this).html("Design<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span><span class='br'></span><a id='services' href='/design'>Learn More</a>");
+    $(this).html("Design<span class='br'></span><span class='sub'>Intelligence made visible. </span><span class='br'></span><a id='services' href='/design'>Learn More</a>");
 }, function(){
     $(this).html("Design");
 });
 
 $("#middle").hover(function(){
-    $(this).html("Development<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span><span class='br'></span><a id='services' href='/development'>Learn More</a>");
+    $(this).html("Development<span class='br'></span><span class='sub'>Your ideas our creation. </span><span class='br'></span><a id='services' href='/development'>Learn More</a>");
 }, function(){
     $(this).html("Development");
 });
 
 $("h1:last-of-type").hover(function(){
-    $(this).html("Digital Marketing<span class='br'></span><span class='sub'>Lorem ipsum dolor sit amet, consectetur. </span><span class='br'></span><a id='services' href='/digitalmarketing'>Learn More</a>");
+    $(this).html("Digital Marketing<span class='br'></span><span class='sub'> Tell your story. </span><span class='br'></span><a id='services' href='/digitalmarketing'>Learn More</a>");
 }, function(){
     $(this).html("Digital Marketing");
 });
@@ -52,28 +52,48 @@ $(window).scroll(function(){
 
 
 // $(document).ready(function () {
-//     var about = $('#about');
+//     var blog = $('#blog');
 
 // $(window).scroll(function () {
 //     var s = $(this).scrollTop(),
 //         d = $(document).height(),
 //         c = $(this).height();
 
-//     scrollPercent = (s / (d));
+//     scrollPercent = (s / (d-c));
+//     console.log(scrollPercent);
+//     console.log(s);
+//     console.log(c);
+//     console.log(d);
 
-//     var position = (scrollPercent * ($(document).width() - 4 * (about).width()));
+//     var position = (scrollPercent * 400);
     
-//     about.css({
+//     blog.css({
 //         'margin-left': position
 //     });
 // });
 // });
 
-$(window).scroll(function(){
-    if ($("#blog").visible(true)){
-    $("#blog").css('margin-left',$(this).scrollTop()-1400 + 'px');
-    } 
-});
+// $(window).scroll(function(){
+//     if ($("#blog").visible(true)){
+//     $("#blog").css('margin-left',$("#about").scrollTop()/4 + 'px');
+//     console.log($("#blog").css('margin-left'));
+//     } 
+// });
+
+$(document).ready(function(){
+    $(window).bind('scroll', function() {
+       var scrollTop = $(window).scrollTop();
+       var elementOffset = $('#blog').offset().top;
+       var currentElementOffset = (elementOffset - scrollTop);
+       var abscEO = Math.abs(currentElementOffset);
+       if ($("#blog").visible(true) && window.matchMedia('(min-width: 1100px)').matches){
+       {$("#blog").css('margin-left', abscEO/1.4 + 'px')};
+    } else {
+        $("#blog").css('margin-left',"0px");
+    }
+    });
+ });
+
 
 
 $('#links').on('show.bs.collapse', function () {
