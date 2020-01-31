@@ -6,6 +6,28 @@
     width: 100%;
     overflow: hidden;
   }
+
+  .mont{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .mont-light{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+  .mont-semi-bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .mont-bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
   
   .header-image img {
     position: absolute;
@@ -422,8 +444,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 
 .mt20{
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
+
+.mt30{
+  margin-top: 30px !important;
+}
+
 
 .icon-modal{
   font-size: 40px;
@@ -468,4 +495,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   .service-sub-heading{
     font-size: 1.8rem;
   }
+}
+
+.jobs-card .card-header{
+  background-color: white !important;
+}
+
+.jobs-header{
+  color: #000000;
+  font-size: 1.2 rem;
+  font-weight: 700 !important;
+  padding-top: 0% !important;
+}
+
+.jobs-header:hover {
+  color: #ee5e54;
+  text-decoration: none;
+}
+
+.jobs-header:focus{
+  color: #ee5e54;
+  text-decoration: none;
+}
+
+.job-category{
+  float: right;
+  
+  
+ 
+}
+
+.jobs-btn{
+  background-color: #ee5e54;
+  color: white;
 }
