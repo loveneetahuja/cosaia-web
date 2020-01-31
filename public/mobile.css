@@ -122,24 +122,12 @@
         font-size: 5rem;
     }
 
-    .textcol{
-        height: 400px;
-    }
-
     .textcol p{
         font-size: 1.8rem;
     }
 
-    .brandcol{
-        height: 500px;
-    }
-
     .brandcol p{
         font-size: 2rem;
-    }
-
-    .emojicol{
-        height: 500px;
     }
 
     .emojicol p{
@@ -188,7 +176,7 @@
     }
 
     .overlay2{
-        height: 870px;
+        height: 819px;
         top: 50%;
         padding-top: 440px;
     }
