@@ -8,6 +8,11 @@
 
     /* Overlay Menu */
     
+    #navlogo{
+        height: 75px;
+        width: 225px;
+    }
+
     #closeButton{
         font-size: 3rem;
     }
@@ -35,22 +40,22 @@
     }
     
     .fa-behance-square{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
     .fa-linkedin-in{
         font-size: 1.7rem;
     }
 
     .fa-bars{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     .fa-ellipsis-v{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     .fa-comment{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
     
     .container{

@@ -247,7 +247,11 @@ h1:hover{
 .logocol{
     height:400px; 
     border: 1px solid rgba(171, 172, 172, 0.5); 
-    background-color:white
+    background-color:white;
+    background-image: url(phrase.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
 }
 
 .logocol img{

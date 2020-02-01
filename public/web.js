@@ -80,6 +80,8 @@ $(window).scroll(function(){
 //     } 
 // });
 
+
+if ($("#blog").length){
 $(document).ready(function(){
     $(window).bind('scroll', function() {
        var scrollTop = $(window).scrollTop();
@@ -93,6 +95,7 @@ $(document).ready(function(){
     }
     });
  });
+}
 
 
 
@@ -102,3 +105,6 @@ $('#links').on('show.bs.collapse', function () {
   $('#social').on('show.bs.collapse', function () {
     $('#links').collapse("hide");
   })
+
+
+
