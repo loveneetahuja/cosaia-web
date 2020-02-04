@@ -1,6 +1,6 @@
 body{
     background-color: #f2f2f3;
-    background-image: url(logooutline2.png);
+    background-image: url('/logooutline2.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
@@ -29,6 +29,14 @@ nav{
     transform: translateX(-50%);
 }
 
+.fixed-top{
+  z-index: 100;
+}
+
+#bufferdiv{
+  height: 100px;
+}
+
 #menu{
     height: 100%;
     width: 100%;
@@ -38,7 +46,7 @@ nav{
     top: 0;
     left: 0;
     background-color: rgb(45, 68, 92);
-    background-image: url(logofilled.png);
+    background-image: url('/logofilled.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
@@ -632,6 +640,10 @@ textarea{
 
 .fa-behance-square:hover{
   color: #ee5e54;
+}
+
+.dropup:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+  display: block;
 }
 
 #social{
@@ -1235,5 +1247,3 @@ border: 1px solid rgba(171, 172, 172, 0.5);
     width: 100%;
     padding-top: 70px;
   } */
-
- 
