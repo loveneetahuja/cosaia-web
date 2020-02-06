@@ -4,10 +4,15 @@
     
     body{
         background-position: 50% 50%;
+        background-image: url('/logooutline2small.png');
     }
 
     /* Overlay Menu */
     
+    #menu{
+        background-image: url('/logofilledsmall.png');
+    }
+
     #navlogo{
         height: 75px;
         width: 225px;
@@ -34,6 +39,10 @@
     }
 
     /* Home Page */
+
+    #bufferdiv{
+        height: 150px;
+    }
 
     .fa-facebook-f{
         font-size: 1.7rem;
@@ -91,6 +100,11 @@
 
   .carousel-inner{
       height: 950px;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    filter: invert(1);
   }
 
   #display{
@@ -328,5 +342,31 @@
 
     #blogpara{
         font-size: 2rem;
+    }
+
+    /* Projects Page */
+
+    #portlink{
+        text-decoration: none; 
+        outline: none; 
+        color: #ee5e54;  
+        border: none; 
+        font-family: 'Cairo', sans-serif; 
+        font-weight: 600; 
+        letter-spacing: 1px;
+        font-size: 2rem;
+    }
+
+    .projrow2{
+        height: 600px;
+        border: 1px solid rgba(171, 172, 172, 0.5); 
+        background-color:white
+    }
+
+    .projcol{
+        margin: auto;
+        border: none;
+        background-color: none;
+        text-align: center;
     }
 }
