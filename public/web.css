@@ -876,8 +876,8 @@ margin-top: 50px;
 }
 @media screen and (max-width: 992px) {
   .blog-slider {
-    max-width: 680px;
-    height: 400px;
+    max-width: 90%;
+    height: 900px;
   }
 }
 @media screen and (max-width: 768px) {
