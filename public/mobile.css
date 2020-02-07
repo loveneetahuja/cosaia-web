@@ -3,7 +3,8 @@
 @media screen and (max-width: 992px) {
     
     body{
-        background-position: 50% 50%;
+        background-position: center;
+        -webkit-background-position: 0vw 40vh;
         background-image: url('/logooutline2small.png');
     }
 
@@ -235,6 +236,7 @@
 
     .infodiv{
         height: auto;
+        margin-bottom: 200px;
     }
 
     .info{
@@ -264,6 +266,12 @@
 
     .dropdown-item{
         font-size: 2rem;
+    }
+
+    .footer{
+        position: fixed;
+        bottom: 0;
+        z-index: 500;
     }
 
     /* Contact Us Page */
@@ -300,6 +308,7 @@
 
     .cardcont{
         height: 3200px;
+        margin-bottom: 100px;
     }
 
     .list-group-item{
