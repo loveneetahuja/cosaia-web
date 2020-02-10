@@ -3,8 +3,7 @@
 @media screen and (max-width: 992px) {
     
     body{
-        background-position: center;
-        -webkit-background-position: 0vw 40vh;
+        background-position: 0vw 40vh;
         background-image: url('/logooutline2small.png');
     }
 
@@ -15,8 +14,8 @@
     }
 
     #navlogo{
-        height: 75px;
-        width: 225px;
+        height: 90px;
+        width: 270px;
     }
 
     #closeButton{
@@ -50,22 +49,22 @@
     }
     
     .fa-behance-square{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .fa-linkedin-in{
         font-size: 1.7rem;
     }
 
     .fa-bars{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .fa-ellipsis-v{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .fa-comment{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     
     .container{
@@ -196,7 +195,7 @@
     }
 
     .overlay2{
-        height: 819px;
+        height: 858px;
         top: 50%;
         padding-top: 440px;
     }
@@ -215,7 +214,7 @@
     }
 
     .overlay3{
-        height: 870px;
+        height: 858px;
         top: 50%;
         padding-top: 440px;
     }
@@ -260,7 +259,7 @@
         font-size: 2rem;
     }
 
-    .dropup{
+    #navbarDropup{
         font-size: 2rem;
     }
 
@@ -307,7 +306,7 @@
     }
 
     .cardcont{
-        height: 3950px;
+        height: 3200px;
         margin-bottom: 100px;
     }
 
@@ -367,15 +366,23 @@
     }
 
     .projrow2{
-        height: 600px;
+        height: auto;
         border: 1px solid rgba(171, 172, 172, 0.5); 
         background-color:white
     }
 
     .projcol{
-        margin: auto;
+        height: auto;
         border: none;
         background-color: none;
         text-align: center;
+    }
+
+    .popoutblock{
+        background-color: white;
+    }
+
+    .backcol{
+        margin-bottom: 150px;
     }
 }

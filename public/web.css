@@ -242,7 +242,7 @@ h1:hover{
 #about{
     text-align: center;
     font-family: "Cairo", sans-serif;
-    font-size: 3.2rem;
+    font-size: 4.5rem;
     font-weight: 700;
     letter-spacing: 4px;
     color: rgba(171, 172, 172, 0.4);
@@ -349,7 +349,7 @@ p{
     color: rgba(171, 172, 172, 0.4);
     text-align: center;
     font-family: "Cairo", sans-serif;
-    font-size: 3.2rem;
+    font-size: 4.5rem;
     font-weight: 700;
     letter-spacing: 4px;
     /* display: inline-block; */
@@ -357,7 +357,7 @@ p{
 
 .article img{
     width: 100%; 
-    margin-top: 189px; 
+    margin-top: 169px; 
     border: 1px solid rgba(171, 172, 172, 0.5);
 }
 
@@ -384,12 +384,12 @@ p{
 } */
 
 .overlay2{
-    height: 396px;
+    height: 416px;
     width: 100%;
     display: none;
     z-index: 1;
     position: absolute;
-    top: 70%;
+    top: 68.5%;
   left: 50%;
   transform: translate(-50%, -50%);
     background-color:  rgba(171, 172, 172, 0.4);
@@ -465,7 +465,7 @@ p{
 }
 
 .article2 img{
-    margin-top: 55px; 
+    margin-top: 65px; 
     width: 100%; 
     border: 1px solid rgba(171, 172, 172, 0.5);
 }
@@ -485,12 +485,12 @@ p{
 }
 
 .overlay3{
-    height: 422.8px;
+    height: 416px;
     width: 100%;
     display: none;
     z-index: 1;
     position: absolute;
-    top: 52.5%;
+    top: 53.5%;
   left: 50%;
   transform: translate(-50%, -50%);
     background-color:  rgba(171, 172, 172, 0.4);
@@ -1146,7 +1146,7 @@ border: 1px solid rgba(171, 172, 172, 0.5);
 
 .cardcont{
     border: 1px solid rgba(171, 172, 172, 0.5); 
-    height: 820px;
+    height: 750px;
     background-color: white; 
     width: 100%;
     padding-top: 70px;
