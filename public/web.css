@@ -524,6 +524,7 @@ p{
 .colmore{
     border: 1px solid rgba(171, 172, 172, 0.5); 
     background-color: white;
+    /* border-bottom: none; */
 }
 
 .loadmore{
@@ -537,6 +538,16 @@ p{
 .loadmore a{
     color: black; 
     text-decoration: none;
+}
+
+.testicol{
+  border: 1px solid rgba(171, 172, 172, 0.5); 
+    background-color:white;
+    height: auto
+}
+
+.clientrow{
+  height: 100px;
 }
 
 .infodiv{
@@ -1249,3 +1260,15 @@ border: 1px solid rgba(171, 172, 172, 0.5);
     width: 100%;
     padding-top: 70px;
   } */
+
+  /* Design Page */
+
+  .carousel2{
+  padding: 70px;
+  border: none !important;
+  background-color: white;
+  }
+
+  .lessSize{
+    font-size: 0.9rem !important;
+  }
