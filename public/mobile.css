@@ -227,6 +227,10 @@
         font-size: 1.7rem;
     }
 
+    .colmore{
+        border-bottom: 1px solid rgba(171, 172, 172, 0.5);;
+    }
+
     .infocol{
         height: 130px;
         border-right: 1px solid rgba(171, 172, 172, 0.5);
@@ -384,5 +388,45 @@
 
     .backcol{
         margin-bottom: 150px;
+    }
+
+    /* Individual blog page */
+
+    .blogcol{
+        margin-bottom: 150px;
+    }
+
+    /* Design Page */
+
+    .fontBig{
+        font-size: 1.4rem !important;
+    }
+
+    .mobHeight{
+        height: 1200px !important;
+        min-height: auto;
+        margin-bottom: 200px;
+    }
+
+    .inner2{
+        height: auto !important;
+    }
+
+    .testimonial{
+        font-size: 1.6rem;
+    }
+
+    .overview{
+        font-size: 1.7rem;
+    }
+
+    /* Careers Page */
+
+    .mobJobs{
+        font-size: 1.7rem !important;
+    }
+
+    .fontChange{
+        font-size: large !important;
     }
 }
