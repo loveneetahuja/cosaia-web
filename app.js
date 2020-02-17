@@ -111,7 +111,7 @@ app.get("/jobs", function(req, res){
         "title": "Career at Cosaia", 
         "description": "Cosaia Private Limited is a digital marketing agency based in India with clients all over the globe. We provide services such as Social Media Marketing, Email Marketing and Search Engine Optimization (SEO).", // meta description
     };
-    res.render("jobs");
+    res.render("jobs" , {'data': data1});
 })
 
 
