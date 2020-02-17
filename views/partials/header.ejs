@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cosaia PVT.LTD.</title>
+    <title><%= data.title %></title>
+    <meta name="description" content=" <%= data.description %> "/>
     <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <script>
+      var host = "www.cosaia.com";
+      if ((host == window.location.host) && (window.location.protocol != "https:")){
+      window.location.protocol = "https";
+      }
+      </script>
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="web.css">
@@ -16,9 +24,18 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
     
-   
+    <link rel="canonical" href="https://cosaia.com/" />
 
     <meta charset='utf-8'>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137788882-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137788882-1');
+</script>
 </head>
 <body>
 
