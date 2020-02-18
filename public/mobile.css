@@ -105,6 +105,16 @@
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     filter: invert(1);
+    height: 40px;
+    width: 40px;
+  }
+
+  .carousel-control-prev {
+    margin-left: -30px;
+  }
+  
+  .carousel-control-next {
+    margin-right: -30px;
   }
 
   #display{
@@ -149,11 +159,19 @@
         font-size: 1.8rem;
     }
 
+    .icons{
+        width: 60%;
+    }
+
     .brandcol p{
         font-size: 2rem;
     }
 
     .emojicol p{
+        font-size: 2rem;
+    }
+
+    #testimonial{
         font-size: 2rem;
     }
 
