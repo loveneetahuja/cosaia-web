@@ -51,7 +51,7 @@ app.get("/contact_us", function(req, res){
     res.render("contact" , {'data': data1});
 })
 
-app.get("/development", function(req, res){
+app.get("/website-development", function(req, res){
     var data1 = {
         "title": "Website Development Company India | Custom Web Development", 
         "description": "Cosaia Private Limited is a web development company based in India. We provide services such as website development, app development and custom web apps for businesses to automate growth.", // meta description
@@ -67,7 +67,7 @@ app.get("/design", function(req, res){
     res.render("design", {'data': data1});
 })
 
-app.get("/digitalmarketing", function(req,res){
+app.get("/digital-marketing-company", function(req,res){
     var data1 = {
         "title": "Digital Marketing Company India | SEO services ", 
         "description": "Cosaia Private Limited is a digital marketing agency based in India with clients all over the globe. We provide services such as Social Media Marketing, Email Marketing and Search Engine Optimization (SEO).", // meta description
@@ -109,7 +109,7 @@ app.get("/thankyou", function(req, res){
 app.get("/jobs", function(req, res){
     var data1 = {
         "title": "Career at Cosaia", 
-        "description": "Cosaia Private Limited is a digital marketing agency based in India with clients all over the globe. We provide services such as Social Media Marketing, Email Marketing and Search Engine Optimization (SEO).", // meta description
+        "description": "Cosaia Private Limited is a Design, Web Development and Digital Marketing Company based in India with several years of experience and clients around the globe. Our large team of highly skilled developers, designers and digital marketing experts will take your business to the next level.", // meta description
     };
     res.render("jobs" , {'data': data1});
 })
@@ -125,3 +125,12 @@ app.get("/robots.txt", function(req, res){
 app.get("/sitemap.xml", function(req, res){
         res.sendFile(path.resolve("sitemap.xml"));
         });    
+
+
+ app.get('*', function(req, res){
+    var data1 = {
+        "title": "404", 
+        "description": "Page not found", // meta description
+    };
+   res.render("404" , {'data': data1});
+     });        

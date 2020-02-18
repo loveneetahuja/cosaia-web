@@ -540,3 +540,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   
   max-width: 70% !important;
 }
+
+.error-head{
+  color: #ee5e54;
+  font-size: 100px;
+}
+
+.error-link{
+  color: #ee5e54;
+}
+
+.error-link:hover {
+  color: #ee5e54;
+}
