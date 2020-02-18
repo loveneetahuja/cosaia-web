@@ -44,15 +44,22 @@ $(".carousel").carousel();
 
 
 
+
 $(window).scroll(function(){
     if ($("#about").visible(true)){
     $("#about").css('margin-left',$(this).scrollTop()/4 + 'px');
     } 
 });
 
+// $(window).scroll(function(){
+//     if ($("#testimonial").visible(true)){
+//     $("#testimonial").css('margin-left',$(this).scrollTop()/20 + 'px');
+//     } 
+// });
+
 
 // $(document).ready(function () {
-//     var blog = $('#blog');
+//     var testimonial = $('#testimonial');
 
 // $(window).scroll(function () {
 //     var s = $(this).scrollTop(),
@@ -65,9 +72,9 @@ $(window).scroll(function(){
 //     console.log(c);
 //     console.log(d);
 
-//     var position = (scrollPercent * 400);
+//     var position = (scrollPercent * 200);
     
-//     blog.css({
+//     testimonial.css({
 //         'margin-left': position
 //     });
 // });

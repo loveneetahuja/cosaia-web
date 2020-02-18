@@ -352,6 +352,36 @@ p{
     font-size: 0.9rem;
 }
 
+#testimonial{
+  /* text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: rgba(171, 172, 172, 0.4);
+    margin-left: 0px;
+    display: inline-block;
+    width: 176px;
+    margin-left: 0;
+    top: 1000px;
+    position: sticky; */
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#aftertest{
+	width: 100px;
+	height: 3px;
+  background: #ee5e54;
+}
+
+.icons{
+  width: 100%;
+}
+
 .blogrow{
     max-height: 700px;
 }
