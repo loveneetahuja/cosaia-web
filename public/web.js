@@ -11,19 +11,19 @@ $("#closeButton").on("click", function(){
 
 
 
-$("h1:first-of-type").hover(function(){
+$("#title1").hover(function(){
     $(this).html("Design<span class='br'></span><span class='sub'>Intelligence made visible. </span><span class='br'></span><a id='services' href='/design'>Learn More</a>");
 }, function(){
     $(this).html("Design");
 });
 
-$("#middle").hover(function(){
+$("#title2").hover(function(){
     $(this).html("Development<span class='br'></span><span class='sub'>Your ideas our creation. </span><span class='br'></span><a id='services' href='/development'>Learn More</a>");
 }, function(){
     $(this).html("Development");
 });
 
-$("h1:last-of-type").hover(function(){
+$("#title3").hover(function(){
     $(this).html("Digital Marketing<span class='br'></span><span class='sub'> Tell your story. </span><span class='br'></span><a id='services' href='/digitalmarketing'>Learn More</a>");
 }, function(){
     $(this).html("Digital Marketing");
@@ -51,11 +51,40 @@ $(window).scroll(function(){
     } 
 });
 
-// $(window).scroll(function(){
-//     if ($("#testimonial").visible(true)){
-//     $("#testimonial").css('margin-left',$(this).scrollTop()/20 + 'px');
-//     } 
-// });
+// LOGO SLIDER
+// $(function(){
+//     // vars for clients list carousel
+//      // http://stackoverflow.com/questions/6759494/jquery-function-definition-in-a-carousel-script
+//      var $clientcarousel = $('#clients-list');
+//      var clients = $clientcarousel.children().length;
+//      var clientwidth = (clients * 220); // 140px width for each client item 
+//      $clientcarousel.css('width',clientwidth);
+//      console.log(clients);
+     
+//      var rotating = true;
+//      var clientspeed = 0;
+//      var seeclients = setInterval(rotateClients, clientspeed);
+
+//      $(document).on({
+//         mouseenter: function(){
+//           rotating = false; // turn off rotation when hovering
+//         },
+//         mouseleave: function(){
+//           rotating = true;
+//         }
+//       }, '#clients');
+     
+//      function rotateClients() {
+//        if(rotating != false) {
+//          var $first = $('#clients-list li:first');
+//          $first.animate({ 'margin-left': '-220px' }, 2000, "linear", function() {
+//            $first.remove().css({ 'margin-left': '0px' });
+//            $('#clients-list li:last').after($first);
+//          });
+//        }
+//      }
+//    });
+   
 
 
 // $(document).ready(function () {
