@@ -18,13 +18,13 @@ $("#title1").hover(function(){
 });
 
 $("#title2").hover(function(){
-    $(this).html("Development<span class='br'></span><span class='sub'>Your ideas our creation. </span><span class='br'></span><a id='services' href='/development'>Learn More</a>");
+    $(this).html("Development<span class='br'></span><span class='sub'>Your ideas our creation. </span><span class='br'></span><a id='services' href='/website-development'>Learn More</a>");
 }, function(){
     $(this).html("Development");
 });
 
 $("#title3").hover(function(){
-    $(this).html("Digital Marketing<span class='br'></span><span class='sub'> Tell your story. </span><span class='br'></span><a id='services' href='/digitalmarketing'>Learn More</a>");
+    $(this).html("Digital Marketing<span class='br'></span><span class='sub'> Tell your story. </span><span class='br'></span><a id='services' href='/digital-marketing-company'>Learn More</a>");
 }, function(){
     $(this).html("Digital Marketing");
 });
