@@ -5,28 +5,81 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+​
+​
 <url>
   <loc>https://www.cosaia.com/</loc>
-  <lastmod>2020-02-15T10:29:00+00:00</lastmod>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.cosaia.com/design</loc>
-  <lastmod>2020-02-15T10:29:00+00:00</lastmod>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.cosaia.com/development</loc>
-  <lastmod>2020-02-15T10:29:00+00:00</lastmod>
+  <loc>https://www.cosaia.com/website-development</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/digital-marketing-company</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/projects</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/blogs</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/contact_us</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/jobs</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.cosaia.com/digitalmarketing</loc>
-  <lastmod>2020-02-15T10:29:00+00:00</lastmod>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>https://www.cosaia.com/thirdblog</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/firstblog</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/Portfolio.pdf</loc>
+  <lastmod>2020-02-27T10:47:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/secondblog</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.cosaia.com/development</loc>
+  <lastmod>2020-03-02T08:12:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+​
+​
 </urlset>
+
+
+
