@@ -21,8 +21,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.get("/", function(req, res){
 
     var data1 = {
-        "title": "Web Development & Design Company India | Web & Mobile Application", 
-        "description": "Cosaia Private Limited is a Design, Web Development and Digital Marketing Company based in India with several years of experience and clients around the globe. Our large team of highly skilled developers, designers and digital marketing experts will take your business to the next level.", // meta description
+        "title": "Website Development & Design Company India | Digital Marketing Services", 
+        "description": "Cosaia Private Limited is a Website Development Company based in India that provides custom web development, web design and Digital marketing services with several years of experience and clients around the globe.", // meta description
     };
     res.render("home", {'data': data1});
 })
@@ -61,8 +61,8 @@ app.get("/website-development", function(req, res){
 
 app.get("/design", function(req, res){
     var data1 = {
-        "title": "Website Designing Company India | Corporate Logo Design", 
-        "description": "Cosaia Private Limited is a web design company based in India. We provide services such as logo design, branding, corporate identity, stationery design, packaging and UI/UX wireframing and prototyping.", // meta description
+        "title": "Website Design Company India |Logo design, Graphic design", 
+        "description": "Cosaia Private Limited is a web design company based in India. We offer different services including logo design, branding, graphic design, corporate identity, website re-design, UI/UX wire framing, prototyping and social media design.Cosaia Private Limited is a web design company based in India. We offer different services including logo design, branding, graphic design, corporate identity, website re-design, UI/UX wire framing, prototyping and social media design.", // meta description
     };
     res.render("design", {'data': data1});
 })
