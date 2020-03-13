@@ -92,12 +92,12 @@ app.get("/secondblog", function(req, res){
     res.render("secondblog" , {'data': data1});
 })
 
-app.get("/thirdblog", function(req, res){
+app.get("/why-invest-in-seo", function(req, res){
     var data1 = {
         "title": "Invest in SEO, Excel", 
         "description": " If you are starting a new business or you already are running a business and you are looking for ways to get your business to new heights of success then you have to invest in SEO. In the current highly competitive market, you might truly feel like you don’t exist, and as of now it might seem quite impossible to get your business into the list of the top-ranking ones.", // meta description
     };
-    res.render("thirdblog" , {'data': data1});
+    res.render("why-invest-in-seo" , {'data': data1});
 })
 
 
