@@ -1,0 +1,514 @@
+
+
+@media screen and (max-width: 992px) {
+    
+    body{
+        background-position: 0vw 40vh;
+        background-image: url('/logooutline2small.png');
+    }
+
+    /* Overlay Menu */
+    
+    #menu{
+        background-image: url('/logofilledsmall.png');
+    }
+
+    #navlogo{
+        height: 90px;
+        width: 270px;
+    }
+
+    #closeButton{
+        font-size: 3rem;
+    }
+
+    #content a{
+        font-size: 5rem;
+    }
+
+    #content2 a{
+        font-size: 2.5rem;
+    }
+
+    .backcol2 .fa-home{
+        font-size: 2.5rem;
+    }
+
+    /* .row1{
+        padding-top: 600px;
+    } */
+
+    #line{
+        width: 500px;
+    }
+
+    /* Home Page */
+
+    #bufferdiv{
+        height: 150px;
+    }
+
+    .fa-facebook-f{
+        font-size: 1.7rem;
+    }
+    
+    .fa-behance-square{
+        font-size: 2.5rem;
+    }
+    .fa-linkedin-in{
+        font-size: 1.7rem;
+    }
+
+    .fa-bars{
+        font-size: 2.5rem;
+    }
+
+    .fa-ellipsis-v{
+        font-size: 2.5rem;
+    }
+
+    .fa-comment{
+        font-size: 2.5rem;
+    }
+    
+    .container{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        max-width: 95%;
+    }
+    
+    .titles {
+    text-align: center;
+    padding-left: 0;
+    border-right: 1px solid rgba(171, 172, 172, 0.5); 
+    padding-top: 30px;
+    font-size: 4rem;
+  }
+
+  .sub{
+      font-size: 2rem;
+  }
+
+  .homecol1{
+      height: 600px;
+  }
+
+  h1:first-of-type{
+      border-top: none;
+      border-bottom: none;
+  }
+
+  #services{
+      font-size: 2rem;
+      margin-bottom: 20px;
+  }
+
+  .carousel-inner{
+      height: 1100px;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    filter: invert(1);
+    height: 40px;
+    width: 40px;
+  }
+
+  .carousel-control-prev {
+    margin-left: -30px;
+  }
+  
+  .carousel-control-next {
+    margin-right: -30px;
+  }
+
+  #display{
+    height: 1100px;
+    }
+
+    #title{
+        font-size: 3rem;
+    }
+
+    #desc{
+        font-size: 2rem;
+        width: 100%;
+        padding-left: 100px !important;
+    }
+
+    #viewproj{
+        font-size: 2rem;
+    }
+
+    .projdiv{
+        height: 120px;
+    }
+
+    .redblock{
+        background-color: #ee5e54;
+        height: 120px;
+    }
+
+    .projdiv{
+        border-right: 1px solid rgba(171, 172, 172, 0.5); 
+    }
+
+    #about{
+        font-size: 5rem;
+    }
+
+    .textcol p{
+        font-size: 2.1rem;
+    }
+
+    .textcol li{
+        font-size: 2.1rem;
+    }
+
+    .icons{
+        width: 40%;
+    }
+
+    .brandcol p{
+        font-size: 2.1rem;
+    }
+
+    .emojicol p{
+        font-size: 2.1rem;
+    }
+
+    #testimonial{
+        font-size: 2.1rem;
+    }
+
+    #blog{
+        font-size: 5rem;
+    }
+
+    .blogdiv{
+        border-right: 1px solid rgba(171, 172, 172, 0.5);
+        border-top: 1px solid rgba(171, 172, 172, 0.5);
+        margin-top: 150px;
+    }
+
+    .article p{
+        font-size: 1.8rem;
+        height: 250px;
+    }
+
+    .article img{
+        margin-top:0;
+    }
+
+    .daterow .col-4{
+        background-color: white;
+        border: 1px solid rgba(171, 172, 172, 0.5);
+        height: 70px;
+    }
+
+    .daterow .col-8{
+        height: 70px;
+    }
+
+    .daterow p{
+        font-family: 'Montserrat', sans-serif; 
+        text-align: center; 
+        font-size: 1.5rem; 
+    }
+
+    .daterow span{
+        color: rgb(130, 130, 130); 
+        letter-spacing: 1px; 
+        font-weight: 500;
+    }
+
+    .overlay2{
+        height: 858px;
+        top: 50%;
+        padding-top: 440px;
+    }
+
+    .overlay2 a{
+        font-size: 1.5rem;
+    }
+
+    .article2 p{
+        font-size: 1.8rem;
+        height: 250px;
+    }
+
+    .article2 img{
+        margin-top:0;
+    }
+
+    .overlay3{
+        height: 858px;
+        top: 50%;
+        padding-top: 440px;
+    }
+
+    .overlay3 a{
+        font-size: 1.5rem;
+    }
+
+    .loadmore{
+        font-size: 2rem;
+    }
+
+    .colmore{
+        border-bottom: 1px solid rgba(171, 172, 172, 0.5);;
+    }
+
+    .infocol{
+        height: 130px;
+        border-right: 1px solid rgba(171, 172, 172, 0.5);
+        margin-top: 0;
+    }
+
+    .infodiv{
+        height: auto;
+        margin-bottom: 200px;
+    }
+
+    .info{
+        text-align: center;
+    }
+
+    .formcol{
+        margin-top: 0;
+    }
+
+    input{
+        font-size: 2rem;
+        width: 350px;
+    }
+
+    label{
+        font-size: 2rem;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 2rem;
+    }
+
+    #navbarDropup{
+        font-size: 2rem;
+    }
+
+    .dropdown-item{
+        font-size: 2rem;
+    }
+
+    .footer{
+        position: fixed;
+        bottom: 0;
+        z-index: 500;
+    }
+
+    /* Contact Us Page */
+
+    h2{
+        font-size: 4rem;
+        margin-top: 20px;
+    }
+
+    #contact{
+        font-size: 2rem;
+    }
+
+    .contactcol{
+        border-right: 1px solid rgba(171, 172, 172, 0.5);
+    }
+
+    #contact2{
+        font-size: 1.5rem;
+    }
+
+    .infocolcontact{
+        height: 130px;
+        border-right: 1px solid rgba(171, 172, 172, 0.5);
+        border-bottom: none;
+    }
+
+    /* Blogs Page */
+
+    .card{
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .cardcont{
+        height: 3200px;
+        margin-bottom: 100px;
+    }
+
+    .list-group-item{
+        font-size: 2rem;
+    }
+
+    .card-text{
+        font-size: 2rem;
+    }
+
+    .card .btn{
+        font-size: 2rem;
+    }
+
+    /* Projects Page */
+
+    .portfolio{
+        height: 1500px;
+        width: 100%;
+    }
+
+    .projcol{
+        height: auto;
+    }
+
+    .fa-arrow-left{
+        font-size: 1.7rem;
+    }
+
+    .fa-home{
+        font-size: 1.7rem;
+    }
+
+    /* Individual Blogs Page */
+
+    #blogdate{
+        font-size: 1.7rem;
+        width: 40%;
+    }
+
+    #blogpara{
+        font-size: 2rem;
+    }
+
+    /* Projects Page */
+
+    #portlink{
+        text-decoration: none; 
+        outline: none; 
+        color: #ee5e54;  
+        border: none; 
+        font-family: 'Cairo', sans-serif; 
+        font-weight: 600; 
+        letter-spacing: 1px;
+        font-size: 2rem;
+    }
+
+    .projrow2{
+        height: auto;
+        border: 1px solid rgba(171, 172, 172, 0.5); 
+        background-color:white
+    }
+
+    .projcol{
+        height: auto;
+        border: none;
+        background-color: none;
+        text-align: center;
+    }
+
+    .popoutblock{
+        background-color: white;
+    }
+
+    .backcol{
+        margin-bottom: 150px;
+    }
+
+    /* Individual blog page */
+
+    .blogcol{
+        margin-bottom: 150px;
+    }
+
+    /* Design Page */
+
+    .fontBig{
+        font-size: 1.4rem !important;
+    }
+
+    .mobHeight{
+        height: 1200px !important;
+        min-height: auto;
+        margin-bottom: 200px;
+    }
+
+    .inner2{
+        height: 335px;
+    }
+
+    .testimonial{
+        font-size: 1.8rem;
+    }
+
+    .testicol{
+        height: auto;
+    }
+
+    .overview{
+        font-size: 1.9rem;
+    }
+
+    /* Careers Page */
+
+    .mobJobs{
+        font-size: 1.7rem !important;
+    }
+
+    .fontChange{
+        font-size: large !important;
+    }
+
+    /*Logo Slider*/
+
+    /* #clients-list{
+        height: 0px;
+    }
+
+    #clients {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#clients .clients-wrap {
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#clients .clients-wrap ul {
+	display: block;
+	list-style: none;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#clients .clients-wrap ul li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 220px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+#clients .clients-wrap ul li img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: 0 linear left;
+  -moz-transition: 0 linear left;
+  transition: 0 linear left;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+  filter: alpha(opacity=65); 
+  /* opacity: 0.65;
+} */
+
+
+}

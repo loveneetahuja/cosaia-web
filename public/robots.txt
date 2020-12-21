@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+sitemap: https://www.cosaia.com/sitemap.xml
